@@ -1,30 +1,30 @@
-# Shy
 
-  Foobar is a Python library for dealing with word pluralization.
+  ## Basic Information
+   Shy
+   shayana.gois@att.net
   
+
+  ## GitHub Project Information
+  GitHub Username: Shygois
+  Project Title: Readme-generator
+  Project Link: https://github.com/Shygois/readme-generator
+  
+     
+  ## Description
+  Generates readme file through terminal commands
+
   ## Installation
-  
-  Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-  
-  bash
-  pip install foobar
-  
+  none
   
   ## Usage
-  
-  python
-  import foobar
-  
-  foobar.pluralize('word') # returns 'words'
-  foobar.pluralize('goose') # returns 'geese'
-  foobar.singularize('phenomena') # returns 'phenomenon'
-
+  none
   
   ## Contributing
-  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-  
-  Please make sure to update tests as appropriate.
+  none
+
+  ## Test Instructions
+  none
   
   ## License
-  [MIT](https://choosealicense.com/licenses/mit/)
+  Apache 2.0,EPL 1.0
 

@@ -20,6 +20,19 @@ const questions = [
     },
     {
         type: "input",
+        name: "email",
+        message: "Enter your email address. (Required)",
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+                return false;
+            }
+        }
+    },
+    {
+        type: "input",
         name: "github",
         message: "Enter your GitHub username. (Required)",
         validate: githubInput => {
@@ -33,13 +46,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "email",
-        message: "Enter your email address. (Required)",
-        validate: emailInput => {
-            if (emailInput) {
+        name: "link",
+        message: "Enter the GitHub link to your project. (Required)",
+        validate: linkInput => {
+            if (linkInput) {
                 return true;
             } else {
-                console.log('Please enter your email address!');
+                console.log('You need to enter your project GitHub link');
                 return false;
             }
         }
