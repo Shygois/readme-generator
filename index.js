@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
-//const readmeMarkdown = require('./utils/generateMarkdown');
+const readmeMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -121,6 +121,12 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: "checkbox",
+        name: "licenses",
+        message: "What licenses did you use for your project?",
+        choices: ['Apache 2.0', 'Boost 1.0', 'BSD 3-Clause', 'CC0', 'EPL 1.0', 'GPLv3', 'IPL 1.0', 'ISC', 'MIT', 'MPL 2.0', 'ODC', 'Perl', 'Artistic 2.0', 'OFL 1.1', 'Unlicense', 'WTFPL', 'Zlib']
     }
 ];
 
@@ -129,8 +135,16 @@ const questions = [
 
 // TODO: Create a function to initialize app
 function init() { 
-    inquirer.prompt(questions);
-}
+    inquirer.prompt(questions)
+    .then(userData => {
+        //console.log(userData);
+        const template = readmeMarkdown(userData);
+        fs.writeFile('./dist/readme.md', template, err => {
+            if (err) throw new Error(err);
+            console.log('Success!');
+        });
+    })
+};
 
 // Function call to initialize app
 init();
