@@ -9,7 +9,7 @@
 
 [Contributing](#contributing)
 
-[Test Instructions](#testinstructions)
+[Test Instructions](#test-instructions)
 
 [License](#license)
 
@@ -50,7 +50,7 @@ To use this app, go to your terminal and enter the following command: "node inde
 ### Contributing
 https://www.contributor-covenant.org/
 
-<a name="test instructions"></a>
+<a name="test-instructions"></a>
 ### Test Instructions 
 none
   
