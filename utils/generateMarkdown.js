@@ -73,7 +73,7 @@ ${data.contribution}
 ## Test Instructions 
 ${data.test}
   
-<a name="license"/>
+<a name="license"></a>
 ## License 
 ${data.project} is released under the ${data.licenses} license & supports modern environments.
 
