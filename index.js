@@ -8,7 +8,7 @@ const questions = [
     {
         type: "input",
         name: "name",
-        message: "What is your name? (Required)",
+        message: "What is your full name? (Required)",
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -136,15 +136,12 @@ const questions = [
         }
     },
     {
-        type: "checkbox",
+        type: "list",
         name: "licenses",
         message: "What licenses did you use for your project?",
         choices: ['Apache 2.0', 'Boost 1.0', 'BSD 3-Clause', 'CC0', 'EPL 1.0', 'GPLv3', 'IPL 1.0', 'ISC', 'MIT', 'MPL 2.0', 'ODC', 'Perl', 'Artistic 2.0', 'OFL 1.1', 'Unlicense', 'WTFPL', 'Zlib']
     }
 ];
-
-// TODO: Create a function to write README file
-//fs.writeFile(generateMarkdown, data) {}
 
 // TODO: Create a function to initialize app
 function init() { 

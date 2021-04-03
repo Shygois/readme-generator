@@ -1,30 +1,44 @@
 
-  ## Basic Information
-   Shy
-   shayana.gois@att.net
+
+## Table of Contents 
+[License](#license)
+
+## Basic Information
+fjdklas
+
+jfdklsa
   
 
-  ## GitHub Project Information
-  GitHub Username: Shygois
-  Project Title: Readme-generator
-  Project Link: https://github.com/Shygois/readme-generator
+### GitHub Project Information
+GitHub Username: jfkdal
   
+Project Title: jfdalk
+  
+Project Link: jfdkal
+  
+## Badges
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
      
-  ## Description
-  Generates readme file through terminal commands
+## Description
+jfdalk
 
-  ## Installation
-  none
-  
-  ## Usage
-  none
-  
-  ## Contributing
-  none
+## Installation
+```bash 
+npm install
+```
 
-  ## Test Instructions
-  none
+## Usage
+```bash 
+node index.js
+```
   
-  ## License
-  Apache 2.0,EPL 1.0
+## Contributing
+jfdkla
+
+## Test Instructions 
+jfdlak
+  
+<a name="license"/>
+## License 
+jfdalk is released under the Apache 2.0 license & supports modern environments.
 
