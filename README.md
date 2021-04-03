@@ -34,6 +34,9 @@ Project Link: https://github.com/Shygois/readme-generator
 ### Description
 Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
+### Demo video
+https://drive.google.com/file/d/1WQZD37PQt2D488VMW7QSBJthwr9sG4hp/view
+
 <a name="installation"></a>
 ### Installation
 ```bash 

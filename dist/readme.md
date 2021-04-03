@@ -1,3 +1,5 @@
+
+
 ## Table of Contents 
 [Badges](#badges)
 
@@ -43,7 +45,7 @@ npm install
 <a name="usage"></a>
 ### Usage
 ```bash 
-To use this app, go to your terminal and enter the following command: "node index.js" or "node index". This will generate a series of questions to gather data about your project
+To use this app, go to your terminal and enter the following command, "node index.js". This will generate a series of questions to gather data about your project.
 ```
  
 <a name="contributing"></a>
