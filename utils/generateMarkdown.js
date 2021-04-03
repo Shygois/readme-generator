@@ -36,6 +36,12 @@ function generateMarkdown(data) {
   return `
 
 ## Table of Contents 
+[Badges](#badges)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[Contributing](#contributing)
+[Test Instructions](#testinstructions)
 [License](#license)
 
 ## Basic Information
@@ -50,31 +56,37 @@ GitHub Username: ${data.github}
 Project Title: ${data.project}
   
 Project Link: ${data.link}
-  
-## Badges
+
+<a name="badges"></a>
+### Badges
 ${badge}
-     
-## Description
+
+<a name="description"></a>
+### Description
 ${data.description}
 
-## Installation
+<a name="installation"></a>
+### Installation
 \`\`\`bash 
 ${data.installation}
 \`\`\`
 
-## Usage
+<a name="usage"></a>
+### Usage
 \`\`\`bash 
 ${data.usage}
 \`\`\`
-  
-## Contributing
+ 
+<a name="contributing"></a>
+### Contributing
 ${data.contribution}
 
-## Test Instructions 
+<a name="test instructions"></a>
+### Test Instructions 
 ${data.test}
   
 <a name="license"></a>
-## License 
+### License 
 ${data.project} is released under the ${data.licenses} license & supports modern environments.
 
 `;
