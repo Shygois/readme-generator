@@ -1,44 +1,56 @@
 
 
 ## Table of Contents 
+[Badges](#badges)
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[Contributing](#contributing)
+[Test Instructions](#testinstructions)
 [License](#license)
 
 ## Basic Information
-djfkla
+Shayana Gois
 
-jfdklsa
+shayana.gois@att.net
   
 
 ### GitHub Project Information
-GitHub Username: fjdkla
+GitHub Username: Shygois
   
-Project Title: fjdkal
+Project Title: Readme-generator
   
-Project Link: fjdkla
-  
-## Badges
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-     
-## Description
-fdjlk
+Project Link: https://github.com/Shygois/readme-generator
 
-## Installation
+<a name="badges"></a>
+### Badges
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+<a name="description"></a>
+### Description
+Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+
+<a name="installation"></a>
+### Installation
 ```bash 
 npm install
 ```
 
-## Usage
+<a name="usage"></a>
+### Usage
 ```bash 
-node index.js
+To use this app, go to your terminal and enter the following command: node index.js this will generate a series of questions to gather data about your project
 ```
-  
-## Contributing
-fjdlaks
+ 
+<a name="contributing"></a>
+### Contributing
+https://www.contributor-covenant.org/
 
-## Test Instructions 
-fjdkal
+<a name="test instructions"></a>
+### Test Instructions 
+none
   
 <a name="license"></a>
-## License 
-fjdkal is released under the Apache 2.0 license & supports modern environments.
+### License 
+Readme-generator is released under the Apache 2.0 license & supports modern environments.
 
