@@ -2,11 +2,17 @@
 
 ## Table of Contents 
 [Badges](#badges)
+
 [Description](#description)
+
 [Installation](#installation)
+
 [Usage](#usage)
+
 [Contributing](#contributing)
+
 [Test Instructions](#testinstructions)
+
 [License](#license)
 
 ## Basic Information
@@ -24,7 +30,7 @@ Project Link: https://github.com/Shygois/readme-generator
 
 <a name="badges"></a>
 ### Badges
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 <a name="description"></a>
 ### Description
@@ -39,7 +45,7 @@ npm install
 <a name="usage"></a>
 ### Usage
 ```bash 
-To use this app, go to your terminal and enter the following command: node index.js this will generate a series of questions to gather data about your project
+To use this app, go to your terminal and enter the following command: "node index.js" or "node index". This will generate a series of questions to gather data about your project
 ```
  
 <a name="contributing"></a>
@@ -52,5 +58,5 @@ none
   
 <a name="license"></a>
 ### License 
-Readme-generator is released under the Apache 2.0 license & supports modern environments.
+Readme-generator is released under the Boost 1.0 license & supports modern environments.
 
