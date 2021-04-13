@@ -16,7 +16,7 @@
 [License](#license)
 
 ## Basic Information
-Shayana Gois
+Shy Gois
 
 shayana.gois@att.net
   
@@ -24,9 +24,9 @@ shayana.gois@att.net
 ### GitHub Project Information
 GitHub Username: Shygois
   
-Project Title: Readme-generator
+Project Title: Team-profile
   
-Project Link: https://github.com/Shygois/readme-generator
+Project Link: https://github.com/Shygois/Team-profile
 
 <a name="badges"></a>
 ### Badges
@@ -34,7 +34,7 @@ Project Link: https://github.com/Shygois/readme-generator
 
 <a name="description"></a>
 ### Description
-Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+Generating an html page that holds the data you provided for your team members. Current problems with mine, it's not picking up the actual data that I inputted. It's rendering the html page but not inputing the manager,engineer, or intern data 
 
 <a name="installation"></a>
 ### Installation
@@ -45,18 +45,18 @@ npm install
 <a name="usage"></a>
 ### Usage
 ```bash 
-To use this app, go to your terminal and enter the following command, "node index.js". This will generate a series of questions to gather data about your project.
+node index.js
 ```
  
 <a name="contributing"></a>
 ### Contributing
-https://www.contributor-covenant.org/
+n/a
 
 <a name="test instructions"></a>
 ### Test Instructions 
-none
+npm run test
   
 <a name="license"></a>
 ### License 
-Readme-generator is released under the Boost 1.0 license & supports modern environments.
+Team-profile is released under the Boost 1.0 license & supports modern environments.
 
